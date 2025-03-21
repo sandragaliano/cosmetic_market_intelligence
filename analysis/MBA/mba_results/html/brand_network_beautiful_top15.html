@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Relaciones entre las 15 Marcas de Belleza Principales en TikTok</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        #chart-container {
+            width: 100%;
+            height: 800px;
+            margin: 0 auto;
+        }
+        .node {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+        .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+        .node text {
+            pointer-events: none;
+            font-size: 10px;
+        }
+        .title {
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Relaciones entre las 15 Marcas de Belleza Principales en TikTok</div>
+    <div id="chart-container"></div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script>
+        // Cargar los datos del grafo
+        fetch('graph_data_top15.json')
+            .then(response => response.json())
+            .then(data => {
+                createForceGraph(data);
+            });
+
+        function createForceGraph(graph) {
+            const width = document.getElementById('chart-container').clientWidth;
+            const height = document.getElementById('chart-container').clientHeight;
+
+            // Crear la simulación de fuerzas
+            const simulation = d3.forceSimulation(graph.nodes)
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+                .force("charge", d3.forceManyBody().strength(-300))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("collide", d3.forceCollide(d => d.size / 2 + 10));
+
+            // Crear el elemento SVG
+            const svg = d3.select("#chart-container").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            // Definir gradiente de color para los nodos
+            const defs = svg.append("defs");
+            const blueGradient = defs.append("linearGradient")
+                .attr("id", "blueGradient")
+                .attr("x1", "0%")
+                .attr("y1", "0%")
+                .attr("x2", "100%")
+                .attr("y2", "100%");
+
+            blueGradient.append("stop")
+                .attr("offset", "0%")
+                .attr("stop-color", "#8ecae6");
+
+            blueGradient.append("stop")
+                .attr("offset", "100%")
+                .attr("stop-color", "#023047");
+
+            // Agregar sombras
+            const filter = defs.append("filter")
+                .attr("id", "drop-shadow")
+                .attr("height", "130%");
+
+            filter.append("feGaussianBlur")
+                .attr("in", "SourceAlpha")
+                .attr("stdDeviation", 3)
+                .attr("result", "blur");
+
+            filter.append("feOffset")
+                .attr("in", "blur")
+                .attr("dx", 3)
+                .attr("dy", 3)
+                .attr("result", "offsetBlur");
+
+            const feMerge = filter.append("feMerge");
+            feMerge.append("feMergeNode")
+                .attr("in", "offsetBlur");
+            feMerge.append("feMergeNode")
+                .attr("in", "SourceGraphic");
+
+            // Crear enlaces
+            const link = svg.append("g")
+                .selectAll("line")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("stroke-width", d => d.width)
+                .attr("stroke", "#999")
+                .attr("stroke-opacity", 0.6);
+
+            // Crear grupos para nodos
+            const node = svg.append("g")
+                .selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            // Agregar círculos a los nodos
+            const maxFreq = d3.max(graph.nodes, d => d.frequency);
+            const colorScale = d3.scaleLinear()
+                .domain([0, maxFreq])
+                .range([0, 1]);
+
+            node.append("circle")
+                .attr("r", d => d.size / 2)
+                .attr("fill", d => {
+                    const colorIndex = Math.floor(colorScale(d.frequency) * 4);
+                    const colors = ["#8ecae6", "#219ebc", "#126782", "#023047"];
+                    return colors[Math.min(colorIndex, 3)];
+                })
+                .attr("stroke", "#fff")
+                .attr("stroke-width", 1.5)
+                .attr("filter", "url(#drop-shadow)")
+                .append("title")
+                .text(d => d.title);
+
+            // Agregar etiquetas a los nodos
+            node.append("text")
+                .attr("dx", d => d.size / 2 + 5)
+                .attr("dy", ".35em")
+                .text(d => d.label)
+                .attr("font-size", 12)
+                .attr("font-weight", "bold")
+                .attr("stroke", "white")
+                .attr("stroke-width", 3)
+                .attr("stroke-opacity", 0.8)
+                .attr("paint-order", "stroke")
+                .attr("fill", "#333");
+
+            // Agregar tooltips para enlaces
+            link.append("title")
+                .text(d => d.title);
+
+            // Actualizar posiciones en cada tick de la simulación
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node.attr("transform", d => `translate(${d.x},${d.y})`);
+            });
+
+            // Funciones para el arrastre de nodos
+            function dragstarted(d) {
+                if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(d) {
+                d.fx = d3.event.x;
+                d.fy = d3.event.y;
+            }
+
+            function dragended(d) {
+                if (!d3.event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+    </script>
+</body>
+</html>
+    
