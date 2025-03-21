@@ -1,0 +1,32 @@
+
+GUÍA DE ETIQUETADO PARA PRODUCTOS COSMÉTICOS Y ATRIBUTOS
+
+Para cada transcripción:
+
+1. PRODUCTOS COSMÉTICOS:
+   - Identifique todos los productos cosméticos mencionados en la transcripción
+   - Formato: "nombre_producto (tipo_producto)" - Ej. "Genifit (skincare)"
+   - Separe múltiples productos con comas
+   - Productos comunes: concealer, contour, bronzer, blush, foundation, mascara, eyeshadow, highlighter, lipstick, etc.
+   - Incluya también nombres de marcas cuando se mencionen específicamente
+
+2. ATRIBUTOS:
+   - Identifique todos los atributos o cualidades mencionadas sobre los productos
+   - Formato: atributos separados por comas - Ej. "glowing, long-lasting"
+   - Atributos comunes: tone, shine, shimmer, bright, light, perfect, beautiful, matte, glowy, creamy, pigmented, etc.
+   - Incluya adjetivos descriptivos y beneficios mencionados
+
+EJEMPLOS:
+
+| Transcripción | Productos Detectados | Atributos Detectados |
+|--------------|---------------------|---------------------|
+| "I use the Genifit from Lancôme" | "Genifit (skincare), Lancôme (brand)" | "glowing" |
+| "It costs 38 euros, but this concealer is perfect" | "concealer (makeup)" | "perfect" |
+| "I love this foundation because it doesn't crease" | "foundation (makeup)" | "no creasing" |
+| "Then I wash my face with this cleanser" | "cleanser (skincare)" | "" |
+
+NOTAS IMPORTANTES:
+- Si una transcripción no menciona ningún producto cosmético, deje la celda de productos en blanco
+- Si no se mencionan atributos, deje la celda de atributos en blanco
+- Tenga en cuenta el contexto completo para identificar productos y atributos implícitos
+- Las expresiones pueden variar, use su criterio para identificar referencias a productos cosméticos
