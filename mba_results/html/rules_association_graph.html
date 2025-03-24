@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Grafo Interactivo de Reglas de Asociación entre Marcas de Belleza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        #chart-container {
+            width: 100%;
+            height: 800px;
+            margin: 0 auto;
+        }
+        .node {
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+        .link {
+            stroke-opacity: 0.6;
+        }
+        .node text {
+            pointer-events: none;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .title {
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .legend {
+            position: absolute;
+            top: 100px;
+            right: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+        }
+        .legend h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+        .color-scale {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .color-bar {
+            height: 20px;
+            margin-bottom: 5px;
+            background: linear-gradient(to right, #add8e6, #4169e1, #00008b);
+        }
+        .color-labels {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Grafo Interactivo de Reglas de Asociación entre Marcas de Belleza</div>
+    <div id="chart-container"></div>
+    <div class="legend">
+        <h3>Leyenda</h3>
+        <p><strong>Dirección:</strong> Antecedente → Consecuente</p>
+        <p><strong>Grosor de línea:</strong> Lift (fuerza de asociación)</p>
+        <div class="color-scale">
+            <p><strong>Color:</strong> Confianza</p>
+            <div class="color-bar"></div>
+            <div class="color-labels">
+                <span>Baja</span>
+                <span>Media</span>
+                <span>Alta</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script>
+        // Cargar los datos del grafo
+        fetch('rules_graph_data.json')
+            .then(response => response.json())
+            .then(data => {
+                createRulesGraph(data);
+            });
+
+        function createRulesGraph(graph) {
+            const width = document.getElementById('chart-container').clientWidth;
+            const height = document.getElementById('chart-container').clientHeight;
+
+            // Crear la simulación de fuerzas
+            const simulation = d3.forceSimulation(graph.nodes)
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(150))
+                .force("charge", d3.forceManyBody().strength(-800))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("collide", d3.forceCollide(50));
+
+            // Crear el elemento SVG
+            const svg = d3.select("#chart-container").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            // Definir marcador de flecha
+            svg.append("defs").selectAll("marker")
+                .data(["end"])
+                .enter().append("marker")
+                .attr("id", "arrowhead")
+                .attr("viewBox", "0 -5 10 10")
+                .attr("refX", 30)
+                .attr("refY", 0)
+                .attr("markerWidth", 6)
+                .attr("markerHeight", 6)
+                .attr("orient", "auto")
+                .append("path")
+                .attr("d", "M0,-5L10,0L0,5")
+                .attr("fill", "#999");
+
+            // Crear enlaces (líneas)
+            const link = svg.append("g")
+                .selectAll("path")
+                .data(graph.links)
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("marker-end", "url(#arrowhead)")
+                .style("stroke", d => d3.interpolateBlues(d.confidence))
+                .style("stroke-width", d => d.lift * 2)
+                .append("title")
+                .text(d => d.title);
+
+            // Crear grupos para nodos
+            const node = svg.append("g")
+                .selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            // Círculos para los nodos
+            node.append("circle")
+                .attr("r", 25)
+                .attr("fill", "skyblue")
+                .attr("stroke", "white")
+                .attr("stroke-width", 2)
+                .append("title")
+                .text(d => d.label);
+
+            // Etiquetas de texto
+            node.append("text")
+                .attr("text-anchor", "middle")
+                .attr("dy", ".35em")
+                .text(d => d.label);
+
+            // Actualizar posiciones en cada tick
+            simulation.on("tick", () => {
+                link.attr("d", d => {
+                    const dx = d.target.x - d.source.x,
+                          dy = d.target.y - d.source.y,
+                          dr = Math.sqrt(dx * dx + dy * dy);
+                    return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
+                });
+
+                node.attr("transform", d => `translate(${d.x},${d.y})`);
+            });
+
+            // Funciones para arrastrar nodos
+            function dragstarted(d) {
+                if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(d) {
+                d.fx = d3.event.x;
+                d.fy = d3.event.y;
+            }
+
+            function dragended(d) {
+                if (!d3.event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+    </script>
+</body>
+</html>
+    

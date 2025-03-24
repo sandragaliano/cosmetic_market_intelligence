@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "Hourglass",
+      "label": "Hourglass"
+    },
+    {
+      "id": "Too Faced",
+      "label": "Too Faced"
+    },
+    {
+      "id": "Huda Beauty",
+      "label": "Huda Beauty"
+    },
+    {
+      "id": "YSL Beauty",
+      "label": "YSL Beauty"
+    },
+    {
+      "id": "Make Up By Mario",
+      "label": "Make Up By Mario"
+    },
+    {
+      "id": "Dior Beauty",
+      "label": "Dior Beauty"
+    },
+    {
+      "id": "Patrick Ta Beauty",
+      "label": "Patrick Ta Beauty"
+    },
+    {
+      "id": "Fenty Beauty",
+      "label": "Fenty Beauty"
+    },
+    {
+      "id": "Anastasia Beverly Hills",
+      "label": "Anastasia Beverly Hills"
+    },
+    {
+      "id": "Charlotte Tilbury",
+      "label": "Charlotte Tilbury"
+    },
+    {
+      "id": "Benefit Cosmetics",
+      "label": "Benefit Cosmetics"
+    }
+  ],
+  "links": [
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Hourglass",
+      "lift": 4.00915750915751,
+      "confidence": 0.7857142857142858,
+      "title": "Charlotte Tilbury → Hourglass\nLift: 4.01, Conf: 0.79"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Hourglass",
+      "lift": 4.00915750915751,
+      "confidence": 0.7857142857142858,
+      "title": "Patrick Ta Beauty → Hourglass\nLift: 4.01, Conf: 0.79"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Benefit Cosmetics",
+      "lift": 3.006868131868132,
+      "confidence": 0.4230769230769231,
+      "title": "Too Faced → Benefit Cosmetics\nLift: 3.01, Conf: 0.42"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Dior Beauty",
+      "lift": 3.001508295625943,
+      "confidence": 0.5882352941176471,
+      "title": "Make Up By Mario → Dior Beauty\nLift: 3.00, Conf: 0.59"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Dior Beauty",
+      "lift": 3.001508295625943,
+      "confidence": 0.5882352941176471,
+      "title": "Hourglass → Dior Beauty\nLift: 3.00, Conf: 0.59"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Charlotte Tilbury",
+      "lift": 2.942204301075269,
+      "confidence": 0.4583333333333333,
+      "title": "Patrick Ta Beauty → Charlotte Tilbury\nLift: 2.94, Conf: 0.46"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Hourglass",
+      "lift": 2.942204301075269,
+      "confidence": 0.4583333333333333,
+      "title": "Patrick Ta Beauty → Hourglass\nLift: 2.94, Conf: 0.46"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Hourglass",
+      "lift": 2.7638888888888893,
+      "confidence": 0.5416666666666667,
+      "title": "Patrick Ta Beauty → Hourglass\nLift: 2.76, Conf: 0.54"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Hourglass",
+      "lift": 2.5512820512820515,
+      "confidence": 0.5,
+      "title": "Make Up By Mario → Hourglass\nLift: 2.55, Conf: 0.50"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Hourglass",
+      "lift": 2.5512820512820515,
+      "confidence": 0.5,
+      "title": "Dior Beauty → Hourglass\nLift: 2.55, Conf: 0.50"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Make Up By Mario",
+      "lift": 2.538265306122449,
+      "confidence": 0.7142857142857143,
+      "title": "Dior Beauty → Make Up By Mario\nLift: 2.54, Conf: 0.71"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Make Up By Mario",
+      "lift": 2.538265306122449,
+      "confidence": 0.7142857142857143,
+      "title": "Hourglass → Make Up By Mario\nLift: 2.54, Conf: 0.71"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Make Up By Mario",
+      "lift": 2.0410256410256413,
+      "confidence": 0.4102564102564103,
+      "title": "Dior Beauty → Make Up By Mario\nLift: 2.04, Conf: 0.41"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Charlotte Tilbury",
+      "lift": 2.0410256410256413,
+      "confidence": 0.4102564102564103,
+      "title": "Dior Beauty → Charlotte Tilbury\nLift: 2.04, Conf: 0.41"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Huda Beauty",
+      "lift": 1.888045540796964,
+      "confidence": 0.4838709677419354,
+      "title": "Fenty Beauty → Huda Beauty\nLift: 1.89, Conf: 0.48"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Huda Beauty",
+      "lift": 1.888045540796964,
+      "confidence": 0.4838709677419354,
+      "title": "Charlotte Tilbury → Huda Beauty\nLift: 1.89, Conf: 0.48"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Fenty Beauty",
+      "lift": 1.854037267080745,
+      "confidence": 0.4285714285714285,
+      "title": "Huda Beauty → Fenty Beauty\nLift: 1.85, Conf: 0.43"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Fenty Beauty",
+      "lift": 1.854037267080745,
+      "confidence": 0.4285714285714285,
+      "title": "Charlotte Tilbury → Fenty Beauty\nLift: 1.85, Conf: 0.43"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Make Up By Mario",
+      "lift": 1.8341013824884795,
+      "confidence": 0.5161290322580645,
+      "title": "Charlotte Tilbury → Make Up By Mario\nLift: 1.83, Conf: 0.52"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Make Up By Mario",
+      "lift": 1.8341013824884795,
+      "confidence": 0.5161290322580645,
+      "title": "Dior Beauty → Make Up By Mario\nLift: 1.83, Conf: 0.52"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Make Up By Mario",
+      "lift": 1.8223443223443223,
+      "confidence": 0.5128205128205129,
+      "title": "Dior Beauty → Make Up By Mario\nLift: 1.82, Conf: 0.51"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Make Up By Mario",
+      "lift": 1.7767857142857144,
+      "confidence": 0.5,
+      "title": "Patrick Ta Beauty → Make Up By Mario\nLift: 1.78, Conf: 0.50"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Make Up By Mario",
+      "lift": 1.6244897959183673,
+      "confidence": 0.4571428571428571,
+      "title": "Huda Beauty → Make Up By Mario\nLift: 1.62, Conf: 0.46"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Make Up By Mario",
+      "lift": 1.6244897959183673,
+      "confidence": 0.4571428571428571,
+      "title": "Charlotte Tilbury → Make Up By Mario\nLift: 1.62, Conf: 0.46"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Make Up By Mario",
+      "lift": 1.6048387096774193,
+      "confidence": 0.4516129032258064,
+      "title": "Charlotte Tilbury → Make Up By Mario\nLift: 1.60, Conf: 0.45"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Make Up By Mario",
+      "lift": 1.6048387096774193,
+      "confidence": 0.4516129032258064,
+      "title": "Hourglass → Make Up By Mario\nLift: 1.60, Conf: 0.45"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Make Up By Mario",
+      "lift": 1.548992673992674,
+      "confidence": 0.4358974358974359,
+      "title": "Hourglass → Make Up By Mario\nLift: 1.55, Conf: 0.44"
+    },
+    {
+      "source": "Anastasia Beverly Hills",
+      "target": "Make Up By Mario",
+      "lift": 1.5450310559006213,
+      "confidence": 0.4347826086956522,
+      "title": "Anastasia Beverly Hills → Make Up By Mario\nLift: 1.55, Conf: 0.43"
+    },
+    {
+      "source": "YSL Beauty",
+      "target": "Charlotte Tilbury",
+      "lift": 1.5202444614209318,
+      "confidence": 0.9090909090909092,
+      "title": "YSL Beauty → Charlotte Tilbury\nLift: 1.52, Conf: 0.91"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Charlotte Tilbury",
+      "lift": 1.4333733493397358,
+      "confidence": 0.8571428571428571,
+      "title": "Dior Beauty → Charlotte Tilbury\nLift: 1.43, Conf: 0.86"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Charlotte Tilbury",
+      "lift": 1.4333733493397358,
+      "confidence": 0.8571428571428571,
+      "title": "Hourglass → Charlotte Tilbury\nLift: 1.43, Conf: 0.86"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Charlotte Tilbury",
+      "lift": 1.4333733493397358,
+      "confidence": 0.8571428571428571,
+      "title": "Huda Beauty → Charlotte Tilbury\nLift: 1.43, Conf: 0.86"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Charlotte Tilbury",
+      "lift": 1.4333733493397358,
+      "confidence": 0.8571428571428571,
+      "title": "Dior Beauty → Charlotte Tilbury\nLift: 1.43, Conf: 0.86"
+    }
+  ]
+}

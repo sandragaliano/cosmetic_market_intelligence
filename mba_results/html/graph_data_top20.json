@@ -1,0 +1,1287 @@
+{
+  "nodes": [
+    {
+      "id": "Charlotte Tilbury",
+      "label": "Charlotte Tilbury",
+      "size": 50.0,
+      "title": "Charlotte Tilbury: 119 menciones",
+      "frequency": 119
+    },
+    {
+      "id": "Rare Beauty",
+      "label": "Rare Beauty",
+      "size": 35.58823529411765,
+      "title": "Rare Beauty: 70 menciones",
+      "frequency": 70
+    },
+    {
+      "id": "Make Up By Mario",
+      "label": "Make Up By Mario",
+      "size": 31.470588235294116,
+      "title": "Make Up By Mario: 56 menciones",
+      "frequency": 56
+    },
+    {
+      "id": "Huda Beauty",
+      "label": "Huda Beauty",
+      "size": 30.0,
+      "title": "Huda Beauty: 51 menciones",
+      "frequency": 51
+    },
+    {
+      "id": "Fenty Beauty",
+      "label": "Fenty Beauty",
+      "size": 28.529411764705884,
+      "title": "Fenty Beauty: 46 menciones",
+      "frequency": 46
+    },
+    {
+      "id": "Hourglass",
+      "label": "Hourglass",
+      "size": 26.470588235294116,
+      "title": "Hourglass: 39 menciones",
+      "frequency": 39
+    },
+    {
+      "id": "Dior Beauty",
+      "label": "Dior Beauty",
+      "size": 26.470588235294116,
+      "title": "Dior Beauty: 39 menciones",
+      "frequency": 39
+    },
+    {
+      "id": "NARS",
+      "label": "NARS",
+      "size": 24.11764705882353,
+      "title": "NARS: 31 menciones",
+      "frequency": 31
+    },
+    {
+      "id": "Benefit Cosmetics",
+      "label": "Benefit Cosmetics",
+      "size": 23.235294117647058,
+      "title": "Benefit Cosmetics: 28 menciones",
+      "frequency": 28
+    },
+    {
+      "id": "Too Faced",
+      "label": "Too Faced",
+      "size": 22.647058823529413,
+      "title": "Too Faced: 26 menciones",
+      "frequency": 26
+    },
+    {
+      "id": "Drunk Elephant",
+      "label": "Drunk Elephant",
+      "size": 22.352941176470587,
+      "title": "Drunk Elephant: 25 menciones",
+      "frequency": 25
+    },
+    {
+      "id": "Patrick Ta Beauty",
+      "label": "Patrick Ta Beauty",
+      "size": 22.058823529411764,
+      "title": "Patrick Ta Beauty: 24 menciones",
+      "frequency": 24
+    },
+    {
+      "id": "Anastasia Beverly Hills",
+      "label": "Anastasia Beverly Hills",
+      "size": 21.764705882352942,
+      "title": "Anastasia Beverly Hills: 23 menciones",
+      "frequency": 23
+    },
+    {
+      "id": "tarte",
+      "label": "tarte",
+      "size": 20.588235294117645,
+      "title": "tarte: 19 menciones",
+      "frequency": 19
+    },
+    {
+      "id": "Sol de Janeiro",
+      "label": "Sol de Janeiro",
+      "size": 20.0,
+      "title": "Sol de Janeiro: 17 menciones",
+      "frequency": 17
+    },
+    {
+      "id": "Natasha Denona",
+      "label": "Natasha Denona",
+      "size": 19.705882352941178,
+      "title": "Natasha Denona: 16 menciones",
+      "frequency": 16
+    },
+    {
+      "id": "Lancôme",
+      "label": "Lancôme",
+      "size": 19.705882352941178,
+      "title": "Lancôme: 16 menciones",
+      "frequency": 16
+    },
+    {
+      "id": "Glow Recipe",
+      "label": "Glow Recipe",
+      "size": 19.411764705882355,
+      "title": "Glow Recipe: 15 menciones",
+      "frequency": 15
+    },
+    {
+      "id": "MAC Cosmetics",
+      "label": "MAC Cosmetics",
+      "size": 19.11764705882353,
+      "title": "MAC Cosmetics: 14 menciones",
+      "frequency": 14
+    },
+    {
+      "id": "Urban Decay",
+      "label": "Urban Decay",
+      "size": 18.823529411764707,
+      "title": "Urban Decay: 13 menciones",
+      "frequency": 13
+    }
+  ],
+  "links": [
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Rare Beauty",
+      "value": 39,
+      "width": 7.825,
+      "title": "Charlotte Tilbury ↔ Rare Beauty: 39 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Make Up By Mario",
+      "value": 40,
+      "width": 8.0,
+      "title": "Charlotte Tilbury ↔ Make Up By Mario: 40 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Huda Beauty",
+      "value": 35,
+      "width": 7.125,
+      "title": "Charlotte Tilbury ↔ Huda Beauty: 35 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Fenty Beauty",
+      "value": 31,
+      "width": 6.425,
+      "title": "Charlotte Tilbury ↔ Fenty Beauty: 31 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Hourglass",
+      "value": 31,
+      "width": 6.425,
+      "title": "Charlotte Tilbury ↔ Hourglass: 31 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Dior Beauty",
+      "value": 31,
+      "width": 6.425,
+      "title": "Charlotte Tilbury ↔ Dior Beauty: 31 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "NARS",
+      "value": 21,
+      "width": 4.675000000000001,
+      "title": "Charlotte Tilbury ↔ NARS: 21 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Benefit Cosmetics",
+      "value": 18,
+      "width": 4.15,
+      "title": "Charlotte Tilbury ↔ Benefit Cosmetics: 18 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Too Faced",
+      "value": 16,
+      "width": 3.8000000000000003,
+      "title": "Charlotte Tilbury ↔ Too Faced: 16 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Drunk Elephant",
+      "value": 14,
+      "width": 3.4499999999999997,
+      "title": "Charlotte Tilbury ↔ Drunk Elephant: 14 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Patrick Ta Beauty",
+      "value": 14,
+      "width": 3.4499999999999997,
+      "title": "Charlotte Tilbury ↔ Patrick Ta Beauty: 14 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Anastasia Beverly Hills",
+      "value": 15,
+      "width": 3.625,
+      "title": "Charlotte Tilbury ↔ Anastasia Beverly Hills: 15 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "tarte",
+      "value": 14,
+      "width": 3.4499999999999997,
+      "title": "Charlotte Tilbury ↔ tarte: 14 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Sol de Janeiro",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Charlotte Tilbury ↔ Sol de Janeiro: 7 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Natasha Denona",
+      "value": 10,
+      "width": 2.75,
+      "title": "Charlotte Tilbury ↔ Natasha Denona: 10 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Lancôme",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Charlotte Tilbury ↔ Lancôme: 11 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Glow Recipe",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Charlotte Tilbury ↔ Glow Recipe: 11 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "MAC Cosmetics",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Charlotte Tilbury ↔ MAC Cosmetics: 11 co-ocurrencias"
+    },
+    {
+      "source": "Charlotte Tilbury",
+      "target": "Urban Decay",
+      "value": 10,
+      "width": 2.75,
+      "title": "Charlotte Tilbury ↔ Urban Decay: 10 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Make Up By Mario",
+      "value": 20,
+      "width": 4.5,
+      "title": "Rare Beauty ↔ Make Up By Mario: 20 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Huda Beauty",
+      "value": 17,
+      "width": 3.975,
+      "title": "Rare Beauty ↔ Huda Beauty: 17 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Fenty Beauty",
+      "value": 18,
+      "width": 4.15,
+      "title": "Rare Beauty ↔ Fenty Beauty: 18 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Hourglass",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Rare Beauty ↔ Hourglass: 11 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Dior Beauty",
+      "value": 18,
+      "width": 4.15,
+      "title": "Rare Beauty ↔ Dior Beauty: 18 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "NARS",
+      "value": 15,
+      "width": 3.625,
+      "title": "Rare Beauty ↔ NARS: 15 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Benefit Cosmetics",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Rare Beauty ↔ Benefit Cosmetics: 11 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Too Faced",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Rare Beauty ↔ Too Faced: 11 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Drunk Elephant",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Rare Beauty ↔ Drunk Elephant: 11 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Patrick Ta Beauty",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Rare Beauty ↔ Patrick Ta Beauty: 8 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Anastasia Beverly Hills",
+      "value": 6,
+      "width": 2.05,
+      "title": "Rare Beauty ↔ Anastasia Beverly Hills: 6 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "tarte",
+      "value": 9,
+      "width": 2.575,
+      "title": "Rare Beauty ↔ tarte: 9 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Sol de Janeiro",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Rare Beauty ↔ Sol de Janeiro: 7 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Natasha Denona",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Rare Beauty ↔ Natasha Denona: 7 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Lancôme",
+      "value": 6,
+      "width": 2.05,
+      "title": "Rare Beauty ↔ Lancôme: 6 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Glow Recipe",
+      "value": 3,
+      "width": 1.525,
+      "title": "Rare Beauty ↔ Glow Recipe: 3 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "MAC Cosmetics",
+      "value": 3,
+      "width": 1.525,
+      "title": "Rare Beauty ↔ MAC Cosmetics: 3 co-ocurrencias"
+    },
+    {
+      "source": "Rare Beauty",
+      "target": "Urban Decay",
+      "value": 3,
+      "width": 1.525,
+      "title": "Rare Beauty ↔ Urban Decay: 3 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Huda Beauty",
+      "value": 20,
+      "width": 4.5,
+      "title": "Make Up By Mario ↔ Huda Beauty: 20 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Fenty Beauty",
+      "value": 13,
+      "width": 3.275,
+      "title": "Make Up By Mario ↔ Fenty Beauty: 13 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Hourglass",
+      "value": 17,
+      "width": 3.975,
+      "title": "Make Up By Mario ↔ Hourglass: 17 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Dior Beauty",
+      "value": 20,
+      "width": 4.5,
+      "title": "Make Up By Mario ↔ Dior Beauty: 20 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "NARS",
+      "value": 10,
+      "width": 2.75,
+      "title": "Make Up By Mario ↔ NARS: 10 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Benefit Cosmetics",
+      "value": 10,
+      "width": 2.75,
+      "title": "Make Up By Mario ↔ Benefit Cosmetics: 10 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Too Faced",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Make Up By Mario ↔ Too Faced: 8 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Drunk Elephant",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Make Up By Mario ↔ Drunk Elephant: 7 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Patrick Ta Beauty",
+      "value": 12,
+      "width": 3.1,
+      "title": "Make Up By Mario ↔ Patrick Ta Beauty: 12 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Anastasia Beverly Hills",
+      "value": 10,
+      "width": 2.75,
+      "title": "Make Up By Mario ↔ Anastasia Beverly Hills: 10 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "tarte",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Make Up By Mario ↔ tarte: 8 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Sol de Janeiro",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Make Up By Mario ↔ Sol de Janeiro: 4 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Natasha Denona",
+      "value": 2,
+      "width": 1.35,
+      "title": "Make Up By Mario ↔ Natasha Denona: 2 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Lancôme",
+      "value": 3,
+      "width": 1.525,
+      "title": "Make Up By Mario ↔ Lancôme: 3 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Glow Recipe",
+      "value": 5,
+      "width": 1.875,
+      "title": "Make Up By Mario ↔ Glow Recipe: 5 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "MAC Cosmetics",
+      "value": 3,
+      "width": 1.525,
+      "title": "Make Up By Mario ↔ MAC Cosmetics: 3 co-ocurrencias"
+    },
+    {
+      "source": "Make Up By Mario",
+      "target": "Urban Decay",
+      "value": 2,
+      "width": 1.35,
+      "title": "Make Up By Mario ↔ Urban Decay: 2 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Fenty Beauty",
+      "value": 18,
+      "width": 4.15,
+      "title": "Huda Beauty ↔ Fenty Beauty: 18 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Hourglass",
+      "value": 12,
+      "width": 3.1,
+      "title": "Huda Beauty ↔ Hourglass: 12 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Dior Beauty",
+      "value": 14,
+      "width": 3.4499999999999997,
+      "title": "Huda Beauty ↔ Dior Beauty: 14 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "NARS",
+      "value": 10,
+      "width": 2.75,
+      "title": "Huda Beauty ↔ NARS: 10 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Benefit Cosmetics",
+      "value": 9,
+      "width": 2.575,
+      "title": "Huda Beauty ↔ Benefit Cosmetics: 9 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Too Faced",
+      "value": 9,
+      "width": 2.575,
+      "title": "Huda Beauty ↔ Too Faced: 9 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Drunk Elephant",
+      "value": 5,
+      "width": 1.875,
+      "title": "Huda Beauty ↔ Drunk Elephant: 5 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Patrick Ta Beauty",
+      "value": 6,
+      "width": 2.05,
+      "title": "Huda Beauty ↔ Patrick Ta Beauty: 6 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Anastasia Beverly Hills",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Huda Beauty ↔ Anastasia Beverly Hills: 8 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "tarte",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Huda Beauty ↔ tarte: 8 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Sol de Janeiro",
+      "value": 5,
+      "width": 1.875,
+      "title": "Huda Beauty ↔ Sol de Janeiro: 5 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Natasha Denona",
+      "value": 2,
+      "width": 1.35,
+      "title": "Huda Beauty ↔ Natasha Denona: 2 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Lancôme",
+      "value": 2,
+      "width": 1.35,
+      "title": "Huda Beauty ↔ Lancôme: 2 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Glow Recipe",
+      "value": 2,
+      "width": 1.35,
+      "title": "Huda Beauty ↔ Glow Recipe: 2 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "MAC Cosmetics",
+      "value": 3,
+      "width": 1.525,
+      "title": "Huda Beauty ↔ MAC Cosmetics: 3 co-ocurrencias"
+    },
+    {
+      "source": "Huda Beauty",
+      "target": "Urban Decay",
+      "value": 5,
+      "width": 1.875,
+      "title": "Huda Beauty ↔ Urban Decay: 5 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Hourglass",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Fenty Beauty ↔ Hourglass: 8 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Dior Beauty",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Fenty Beauty ↔ Dior Beauty: 11 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "NARS",
+      "value": 10,
+      "width": 2.75,
+      "title": "Fenty Beauty ↔ NARS: 10 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Benefit Cosmetics",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Fenty Beauty ↔ Benefit Cosmetics: 11 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Too Faced",
+      "value": 10,
+      "width": 2.75,
+      "title": "Fenty Beauty ↔ Too Faced: 10 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Drunk Elephant",
+      "value": 5,
+      "width": 1.875,
+      "title": "Fenty Beauty ↔ Drunk Elephant: 5 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Patrick Ta Beauty",
+      "value": 2,
+      "width": 1.35,
+      "title": "Fenty Beauty ↔ Patrick Ta Beauty: 2 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Anastasia Beverly Hills",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Fenty Beauty ↔ Anastasia Beverly Hills: 7 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "tarte",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Fenty Beauty ↔ tarte: 8 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Sol de Janeiro",
+      "value": 6,
+      "width": 2.05,
+      "title": "Fenty Beauty ↔ Sol de Janeiro: 6 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Natasha Denona",
+      "value": 2,
+      "width": 1.35,
+      "title": "Fenty Beauty ↔ Natasha Denona: 2 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Lancôme",
+      "value": 2,
+      "width": 1.35,
+      "title": "Fenty Beauty ↔ Lancôme: 2 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Glow Recipe",
+      "value": 2,
+      "width": 1.35,
+      "title": "Fenty Beauty ↔ Glow Recipe: 2 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "MAC Cosmetics",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Fenty Beauty ↔ MAC Cosmetics: 4 co-ocurrencias"
+    },
+    {
+      "source": "Fenty Beauty",
+      "target": "Urban Decay",
+      "value": 6,
+      "width": 2.05,
+      "title": "Fenty Beauty ↔ Urban Decay: 6 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Dior Beauty",
+      "value": 14,
+      "width": 3.4499999999999997,
+      "title": "Hourglass ↔ Dior Beauty: 14 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "NARS",
+      "value": 6,
+      "width": 2.05,
+      "title": "Hourglass ↔ NARS: 6 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Benefit Cosmetics",
+      "value": 6,
+      "width": 2.05,
+      "title": "Hourglass ↔ Benefit Cosmetics: 6 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Too Faced",
+      "value": 6,
+      "width": 2.05,
+      "title": "Hourglass ↔ Too Faced: 6 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Drunk Elephant",
+      "value": 2,
+      "width": 1.35,
+      "title": "Hourglass ↔ Drunk Elephant: 2 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Patrick Ta Beauty",
+      "value": 13,
+      "width": 3.275,
+      "title": "Hourglass ↔ Patrick Ta Beauty: 13 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Anastasia Beverly Hills",
+      "value": 9,
+      "width": 2.575,
+      "title": "Hourglass ↔ Anastasia Beverly Hills: 9 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "tarte",
+      "value": 2,
+      "width": 1.35,
+      "title": "Hourglass ↔ tarte: 2 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Sol de Janeiro",
+      "value": 2,
+      "width": 1.35,
+      "title": "Hourglass ↔ Sol de Janeiro: 2 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Natasha Denona",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Hourglass ↔ Natasha Denona: 8 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Lancôme",
+      "value": 6,
+      "width": 2.05,
+      "title": "Hourglass ↔ Lancôme: 6 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Glow Recipe",
+      "value": 5,
+      "width": 1.875,
+      "title": "Hourglass ↔ Glow Recipe: 5 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "MAC Cosmetics",
+      "value": 2,
+      "width": 1.35,
+      "title": "Hourglass ↔ MAC Cosmetics: 2 co-ocurrencias"
+    },
+    {
+      "source": "Hourglass",
+      "target": "Urban Decay",
+      "value": 3,
+      "width": 1.525,
+      "title": "Hourglass ↔ Urban Decay: 3 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "NARS",
+      "value": 9,
+      "width": 2.575,
+      "title": "Dior Beauty ↔ NARS: 9 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Benefit Cosmetics",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Dior Beauty ↔ Benefit Cosmetics: 7 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Too Faced",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Dior Beauty ↔ Too Faced: 4 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Drunk Elephant",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Dior Beauty ↔ Drunk Elephant: 7 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Patrick Ta Beauty",
+      "value": 6,
+      "width": 2.05,
+      "title": "Dior Beauty ↔ Patrick Ta Beauty: 6 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Anastasia Beverly Hills",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "Dior Beauty ↔ Anastasia Beverly Hills: 8 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "tarte",
+      "value": 3,
+      "width": 1.525,
+      "title": "Dior Beauty ↔ tarte: 3 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Sol de Janeiro",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Dior Beauty ↔ Sol de Janeiro: 4 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Natasha Denona",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Dior Beauty ↔ Natasha Denona: 4 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Lancôme",
+      "value": 5,
+      "width": 1.875,
+      "title": "Dior Beauty ↔ Lancôme: 5 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Glow Recipe",
+      "value": 5,
+      "width": 1.875,
+      "title": "Dior Beauty ↔ Glow Recipe: 5 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "MAC Cosmetics",
+      "value": 3,
+      "width": 1.525,
+      "title": "Dior Beauty ↔ MAC Cosmetics: 3 co-ocurrencias"
+    },
+    {
+      "source": "Dior Beauty",
+      "target": "Urban Decay",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Dior Beauty ↔ Urban Decay: 4 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Benefit Cosmetics",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "NARS ↔ Benefit Cosmetics: 8 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Too Faced",
+      "value": 8,
+      "width": 2.4000000000000004,
+      "title": "NARS ↔ Too Faced: 8 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Drunk Elephant",
+      "value": 3,
+      "width": 1.525,
+      "title": "NARS ↔ Drunk Elephant: 3 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Anastasia Beverly Hills",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "NARS ↔ Anastasia Beverly Hills: 7 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "tarte",
+      "value": 5,
+      "width": 1.875,
+      "title": "NARS ↔ tarte: 5 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Sol de Janeiro",
+      "value": 2,
+      "width": 1.35,
+      "title": "NARS ↔ Sol de Janeiro: 2 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Natasha Denona",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "NARS ↔ Natasha Denona: 7 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Lancôme",
+      "value": 3,
+      "width": 1.525,
+      "title": "NARS ↔ Lancôme: 3 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "MAC Cosmetics",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "NARS ↔ MAC Cosmetics: 4 co-ocurrencias"
+    },
+    {
+      "source": "NARS",
+      "target": "Urban Decay",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "NARS ↔ Urban Decay: 4 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Too Faced",
+      "value": 11,
+      "width": 2.9250000000000003,
+      "title": "Benefit Cosmetics ↔ Too Faced: 11 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Drunk Elephant",
+      "value": 5,
+      "width": 1.875,
+      "title": "Benefit Cosmetics ↔ Drunk Elephant: 5 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Anastasia Beverly Hills",
+      "value": 5,
+      "width": 1.875,
+      "title": "Benefit Cosmetics ↔ Anastasia Beverly Hills: 5 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "tarte",
+      "value": 2,
+      "width": 1.35,
+      "title": "Benefit Cosmetics ↔ tarte: 2 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Sol de Janeiro",
+      "value": 2,
+      "width": 1.35,
+      "title": "Benefit Cosmetics ↔ Sol de Janeiro: 2 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Natasha Denona",
+      "value": 3,
+      "width": 1.525,
+      "title": "Benefit Cosmetics ↔ Natasha Denona: 3 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Lancôme",
+      "value": 2,
+      "width": 1.35,
+      "title": "Benefit Cosmetics ↔ Lancôme: 2 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "Glow Recipe",
+      "value": 3,
+      "width": 1.525,
+      "title": "Benefit Cosmetics ↔ Glow Recipe: 3 co-ocurrencias"
+    },
+    {
+      "source": "Benefit Cosmetics",
+      "target": "MAC Cosmetics",
+      "value": 5,
+      "width": 1.875,
+      "title": "Benefit Cosmetics ↔ MAC Cosmetics: 5 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Drunk Elephant",
+      "value": 2,
+      "width": 1.35,
+      "title": "Too Faced ↔ Drunk Elephant: 2 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Anastasia Beverly Hills",
+      "value": 7,
+      "width": 2.2249999999999996,
+      "title": "Too Faced ↔ Anastasia Beverly Hills: 7 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "tarte",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Too Faced ↔ tarte: 4 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Sol de Janeiro",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Too Faced ↔ Sol de Janeiro: 4 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Natasha Denona",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Too Faced ↔ Natasha Denona: 4 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Lancôme",
+      "value": 3,
+      "width": 1.525,
+      "title": "Too Faced ↔ Lancôme: 3 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Glow Recipe",
+      "value": 2,
+      "width": 1.35,
+      "title": "Too Faced ↔ Glow Recipe: 2 co-ocurrencias"
+    },
+    {
+      "source": "Too Faced",
+      "target": "Urban Decay",
+      "value": 2,
+      "width": 1.35,
+      "title": "Too Faced ↔ Urban Decay: 2 co-ocurrencias"
+    },
+    {
+      "source": "Drunk Elephant",
+      "target": "Patrick Ta Beauty",
+      "value": 3,
+      "width": 1.525,
+      "title": "Drunk Elephant ↔ Patrick Ta Beauty: 3 co-ocurrencias"
+    },
+    {
+      "source": "Drunk Elephant",
+      "target": "Anastasia Beverly Hills",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Drunk Elephant ↔ Anastasia Beverly Hills: 4 co-ocurrencias"
+    },
+    {
+      "source": "Drunk Elephant",
+      "target": "tarte",
+      "value": 2,
+      "width": 1.35,
+      "title": "Drunk Elephant ↔ tarte: 2 co-ocurrencias"
+    },
+    {
+      "source": "Drunk Elephant",
+      "target": "Sol de Janeiro",
+      "value": 3,
+      "width": 1.525,
+      "title": "Drunk Elephant ↔ Sol de Janeiro: 3 co-ocurrencias"
+    },
+    {
+      "source": "Drunk Elephant",
+      "target": "Lancôme",
+      "value": 3,
+      "width": 1.525,
+      "title": "Drunk Elephant ↔ Lancôme: 3 co-ocurrencias"
+    },
+    {
+      "source": "Drunk Elephant",
+      "target": "Glow Recipe",
+      "value": 5,
+      "width": 1.875,
+      "title": "Drunk Elephant ↔ Glow Recipe: 5 co-ocurrencias"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Anastasia Beverly Hills",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Patrick Ta Beauty ↔ Anastasia Beverly Hills: 4 co-ocurrencias"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Natasha Denona",
+      "value": 3,
+      "width": 1.525,
+      "title": "Patrick Ta Beauty ↔ Natasha Denona: 3 co-ocurrencias"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Lancôme",
+      "value": 3,
+      "width": 1.525,
+      "title": "Patrick Ta Beauty ↔ Lancôme: 3 co-ocurrencias"
+    },
+    {
+      "source": "Patrick Ta Beauty",
+      "target": "Glow Recipe",
+      "value": 3,
+      "width": 1.525,
+      "title": "Patrick Ta Beauty ↔ Glow Recipe: 3 co-ocurrencias"
+    },
+    {
+      "source": "Anastasia Beverly Hills",
+      "target": "tarte",
+      "value": 3,
+      "width": 1.525,
+      "title": "Anastasia Beverly Hills ↔ tarte: 3 co-ocurrencias"
+    },
+    {
+      "source": "Anastasia Beverly Hills",
+      "target": "Sol de Janeiro",
+      "value": 2,
+      "width": 1.35,
+      "title": "Anastasia Beverly Hills ↔ Sol de Janeiro: 2 co-ocurrencias"
+    },
+    {
+      "source": "Anastasia Beverly Hills",
+      "target": "Natasha Denona",
+      "value": 2,
+      "width": 1.35,
+      "title": "Anastasia Beverly Hills ↔ Natasha Denona: 2 co-ocurrencias"
+    },
+    {
+      "source": "Anastasia Beverly Hills",
+      "target": "Glow Recipe",
+      "value": 5,
+      "width": 1.875,
+      "title": "Anastasia Beverly Hills ↔ Glow Recipe: 5 co-ocurrencias"
+    },
+    {
+      "source": "tarte",
+      "target": "Sol de Janeiro",
+      "value": 3,
+      "width": 1.525,
+      "title": "tarte ↔ Sol de Janeiro: 3 co-ocurrencias"
+    },
+    {
+      "source": "tarte",
+      "target": "Glow Recipe",
+      "value": 2,
+      "width": 1.35,
+      "title": "tarte ↔ Glow Recipe: 2 co-ocurrencias"
+    },
+    {
+      "source": "tarte",
+      "target": "MAC Cosmetics",
+      "value": 2,
+      "width": 1.35,
+      "title": "tarte ↔ MAC Cosmetics: 2 co-ocurrencias"
+    },
+    {
+      "source": "Sol de Janeiro",
+      "target": "Lancôme",
+      "value": 2,
+      "width": 1.35,
+      "title": "Sol de Janeiro ↔ Lancôme: 2 co-ocurrencias"
+    },
+    {
+      "source": "Sol de Janeiro",
+      "target": "Glow Recipe",
+      "value": 4,
+      "width": 1.7000000000000002,
+      "title": "Sol de Janeiro ↔ Glow Recipe: 4 co-ocurrencias"
+    },
+    {
+      "source": "Natasha Denona",
+      "target": "Lancôme",
+      "value": 3,
+      "width": 1.525,
+      "title": "Natasha Denona ↔ Lancôme: 3 co-ocurrencias"
+    },
+    {
+      "source": "Natasha Denona",
+      "target": "MAC Cosmetics",
+      "value": 2,
+      "width": 1.35,
+      "title": "Natasha Denona ↔ MAC Cosmetics: 2 co-ocurrencias"
+    },
+    {
+      "source": "Natasha Denona",
+      "target": "Urban Decay",
+      "value": 2,
+      "width": 1.35,
+      "title": "Natasha Denona ↔ Urban Decay: 2 co-ocurrencias"
+    },
+    {
+      "source": "Glow Recipe",
+      "target": "MAC Cosmetics",
+      "value": 3,
+      "width": 1.525,
+      "title": "Glow Recipe ↔ MAC Cosmetics: 3 co-ocurrencias"
+    },
+    {
+      "source": "MAC Cosmetics",
+      "target": "Urban Decay",
+      "value": 3,
+      "width": 1.525,
+      "title": "MAC Cosmetics ↔ Urban Decay: 3 co-ocurrencias"
+    }
+  ]
+}
