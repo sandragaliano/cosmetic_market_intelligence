@@ -102,7 +102,7 @@ Entre otras... :)
 
 ## Para Citar Este trabajo
 
-Si utilizas este código o datos en tu investigación, por favor citame de la siguiente forma:
+Si utilizas este código o datos en tu investigación, por favor cítame de la siguiente forma:
 
 Galiano Bernardino, S. (2025). Cosmetic Market Intelligence: Análisis de Tendencias y
 Características de Éxito en Redes Sociales. Trabajo de Fin de Grado, Universidad Francisco de Vitoria.
