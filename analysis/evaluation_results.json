@@ -1,0 +1,17 @@
+{
+    "eval_loss": 0.26854586601257324,
+    "eval_accuracy": 0.6777777777777778,
+    "eval_precision": 0.7175925925925926,
+    "eval_recall": 0.7147435897435898,
+    "eval_f1": 0.7145098039215686,
+    "eval_ATTRIBUTE_f1": 0.5490196078431373,
+    "eval_ATTRIBUTE_precision": 0.5185185185185185,
+    "eval_ATTRIBUTE_recall": 0.5833333333333334,
+    "eval_PRODUCT_f1": 0.8799999999999999,
+    "eval_PRODUCT_precision": 0.9166666666666666,
+    "eval_PRODUCT_recall": 0.8461538461538461,
+    "eval_runtime": 3.0659,
+    "eval_samples_per_second": 15.982,
+    "eval_steps_per_second": 1.957,
+    "epoch": 9.0
+}

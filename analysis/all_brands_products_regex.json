@@ -1,0 +1,402 @@
+[
+  {
+    "brand": "Rare Beauty by Selena Gomez",
+    "aliases": [
+      "Rare Beauty",
+      "Rare"
+    ],
+    "regex": "\\b(Rare\\ Beauty\\ by\\ Selena\\ Gomez|Rare\\ Beauty|Rare)\\b"
+  },
+  {
+    "brand": "Charlotte Tilbury",
+    "aliases": [
+      "Charlotte",
+      "Tilbury"
+    ],
+    "regex": "\\b(Charlotte\\ Tilbury|Charlotte|Tilbury)\\b"
+  },
+  {
+    "brand": "Patrick Ta Beauty",
+    "aliases": [
+      "Patrick Ta"
+    ],
+    "regex": "\\b(Patrick\\ Ta\\ Beauty|Patrick\\ Ta)\\b"
+  },
+  {
+    "brand": "Pat McGrath Labs",
+    "aliases": [
+      "Pat McGrath",
+      "Pat",
+      "PMG"
+    ],
+    "regex": "\\b(Pat\\ McGrath\\ Labs|Pat\\ McGrath|Pat|PMG)\\b"
+  },
+  {
+    "brand": "Tom Ford Beauty",
+    "aliases": [
+      "Tom Ford"
+    ],
+    "regex": "\\b(Tom\\ Ford\\ Beauty|Tom\\ Ford)\\b"
+  },
+  {
+    "brand": "Anastasia Beverly Hills",
+    "aliases": [
+      "ABH",
+      "Anastasia"
+    ],
+    "regex": "\\b(Anastasia\\ Beverly\\ Hills|ABH|Anastasia)\\b"
+  },
+  {
+    "brand": "Kosas",
+    "aliases": [
+      "Kosas Cosmetics"
+    ],
+    "regex": "\\b(Kosas|Kosas\\ Cosmetics)\\b"
+  },
+  {
+    "brand": "Bobbi Brown",
+    "aliases": [
+      "Bobbi"
+    ],
+    "regex": "\\b(Bobbi\\ Brown|Bobbi)\\b"
+  },
+  {
+    "brand": "Natasha Denona",
+    "aliases": [
+      "Natasha",
+      "ND"
+    ],
+    "regex": "\\b(Natasha\\ Denona|Natasha|ND)\\b"
+  },
+  {
+    "brand": "Sol de Janeiro",
+    "aliases": [
+      "Sol",
+      "SDJ"
+    ],
+    "regex": "\\b(Sol\\ de\\ Janeiro|Sol|SDJ)\\b"
+  },
+  {
+    "brand": "Drunk Elephant",
+    "aliases": [
+      "Drunk E",
+      "DE"
+    ],
+    "regex": "\\b(Drunk\\ Elephant|Drunk\\ E|DE)\\b"
+  },
+  {
+    "brand": "Kiehl's",
+    "aliases": [
+      "Kiehls"
+    ],
+    "regex": "\\b(Kiehl's|Kiehls)\\b"
+  },
+  {
+    "brand": "Hourglass",
+    "aliases": [
+      "Hourglass Cosmetics"
+    ],
+    "regex": "\\b(Hourglass|Hourglass\\ Cosmetics)\\b"
+  },
+  {
+    "brand": "Olaplex",
+    "aliases": [
+      "Olaplex Hair"
+    ],
+    "regex": "\\b(Olaplex|Olaplex\\ Hair)\\b"
+  },
+  {
+    "brand": "Ouai",
+    "aliases": [
+      "Ouai Hair"
+    ],
+    "regex": "\\b(Ouai|Ouai\\ Hair)\\b"
+  },
+  {
+    "brand": "Make Up By Mario",
+    "aliases": [
+      "Mario",
+      "MUBM"
+    ],
+    "regex": "\\b(Make\\ Up\\ By\\ Mario|Mario|MUBM)\\b"
+  },
+  {
+    "brand": "Make Up For Ever",
+    "aliases": [
+      "MUFE"
+    ],
+    "regex": "\\b(Make\\ Up\\ For\\ Ever|MUFE)\\b"
+  },
+  {
+    "brand": "Huda Beauty",
+    "aliases": [
+      "Huda"
+    ],
+    "regex": "\\b(Huda\\ Beauty|Huda)\\b"
+  },
+  {
+    "brand": "Fenty Beauty",
+    "aliases": [
+      "Fenty",
+      "Rihanna Beauty"
+    ],
+    "regex": "\\b(Fenty\\ Beauty|Fenty|Rihanna\\ Beauty)\\b"
+  },
+  {
+    "brand": "MAC Cosmetics",
+    "aliases": [
+      "MAC"
+    ],
+    "regex": "\\b(MAC\\ Cosmetics|MAC)\\b"
+  },
+  {
+    "brand": "Urban Decay",
+    "aliases": [
+      "UD"
+    ],
+    "regex": "\\b(Urban\\ Decay|UD)\\b"
+  },
+  {
+    "brand": "Too Faced",
+    "aliases": [
+      "TF"
+    ],
+    "regex": "\\b(Too\\ Faced|TF)\\b"
+  },
+  {
+    "brand": "Dior Beauty",
+    "aliases": [
+      "Dior"
+    ],
+    "regex": "\\b(Dior\\ Beauty|Dior)\\b"
+  },
+  {
+    "brand": "Chanel Beauty",
+    "aliases": [
+      "Chanel"
+    ],
+    "regex": "\\b(Chanel\\ Beauty|Chanel)\\b"
+  },
+  {
+    "brand": "Gucci Beauty",
+    "aliases": [
+      "Gucci"
+    ],
+    "regex": "\\b(Gucci\\ Beauty|Gucci)\\b"
+  },
+  {
+    "brand": "Lancôme",
+    "aliases": [
+      "Lancome"
+    ],
+    "regex": "\\b(Lancôme|Lancome)\\b"
+  },
+  {
+    "brand": "Estée Lauder",
+    "aliases": [
+      "Estee Lauder"
+    ],
+    "regex": "\\b(Estée\\ Lauder|Estee\\ Lauder)\\b"
+  },
+  {
+    "brand": "YSL Beauty",
+    "aliases": [
+      "YSL",
+      "Yves Saint Laurent"
+    ],
+    "regex": "\\b(YSL\\ Beauty|YSL|Yves\\ Saint\\ Laurent)\\b"
+  },
+  {
+    "brand": "Benefit Cosmetics",
+    "aliases": [
+      "Benefit"
+    ],
+    "regex": "\\b(Benefit\\ Cosmetics|Benefit)\\b"
+  },
+  {
+    "brand": "Giorgio Armani Beauty",
+    "aliases": [
+      "Armani Beauty"
+    ],
+    "regex": "\\b(Giorgio\\ Armani\\ Beauty|Armani\\ Beauty)\\b"
+  },
+  {
+    "brand": "NARS",
+    "aliases": [
+      "NARS Cosmetics"
+    ],
+    "regex": "\\b(NARS|NARS\\ Cosmetics)\\b"
+  },
+  {
+    "brand": "Tarte",
+    "aliases": [
+      "Tarte Cosmetics"
+    ],
+    "regex": "\\b(Tarte|Tarte\\ Cosmetics)\\b"
+  },
+  {
+    "brand": "L'Oréal",
+    "aliases": [],
+    "regex": "\\bL'Oréal\\b"
+  },
+  {
+    "brand": "Maybelline",
+    "aliases": [],
+    "regex": "\\bMaybelline\\b"
+  },
+  {
+    "brand": "Revlon",
+    "aliases": [],
+    "regex": "\\bRevlon\\b"
+  },
+  {
+    "brand": "CoverGirl",
+    "aliases": [],
+    "regex": "\\bCoverGirl\\b"
+  },
+  {
+    "brand": "NYX",
+    "aliases": [],
+    "regex": "\\bNYX\\b"
+  },
+  {
+    "brand": "e.l.f.",
+    "aliases": [],
+    "regex": "\\be\\.l\\.f\\.\\b"
+  },
+  {
+    "brand": "Morphe",
+    "aliases": [],
+    "regex": "\\bMorphe\\b"
+  },
+  {
+    "brand": "Glossier",
+    "aliases": [],
+    "regex": "\\bGlossier\\b"
+  },
+  {
+    "brand": "Laura Mercier",
+    "aliases": [],
+    "regex": "\\bLaura\\ Mercier\\b"
+  },
+  {
+    "brand": "Clinique",
+    "aliases": [],
+    "regex": "\\bClinique\\b"
+  },
+  {
+    "brand": "Shiseido",
+    "aliases": [],
+    "regex": "\\bShiseido\\b"
+  },
+  {
+    "brand": "Milk Makeup",
+    "aliases": [],
+    "regex": "\\bMilk\\ Makeup\\b"
+  },
+  {
+    "brand": "NUXE",
+    "aliases": [],
+    "regex": "\\bNUXE\\b"
+  },
+  {
+    "brand": "La Roche-Posay",
+    "aliases": [],
+    "regex": "\\bLa\\ Roche\\-Posay\\b"
+  },
+  {
+    "brand": "CeraVe",
+    "aliases": [],
+    "regex": "\\bCeraVe\\b"
+  },
+  {
+    "brand": "The Ordinary",
+    "aliases": [],
+    "regex": "\\bThe\\ Ordinary\\b"
+  },
+  {
+    "brand": "Neutrogena",
+    "aliases": [],
+    "regex": "\\bNeutrogena\\b"
+  },
+  {
+    "brand": "Vichy",
+    "aliases": [],
+    "regex": "\\bVichy\\b"
+  },
+  {
+    "brand": "Bioderma",
+    "aliases": [],
+    "regex": "\\bBioderma\\b"
+  },
+  {
+    "brand": "Avene",
+    "aliases": [],
+    "regex": "\\bAvene\\b"
+  },
+  {
+    "brand": "La Mer",
+    "aliases": [],
+    "regex": "\\bLa\\ Mer\\b"
+  },
+  {
+    "brand": "Tatcha",
+    "aliases": [],
+    "regex": "\\bTatcha\\b"
+  },
+  {
+    "brand": "Glow Recipe",
+    "aliases": [],
+    "regex": "\\bGlow\\ Recipe\\b"
+  },
+  {
+    "brand": "Summer Fridays",
+    "aliases": [],
+    "regex": "\\bSummer\\ Fridays\\b"
+  },
+  {
+    "brand": "COSRX",
+    "aliases": [],
+    "regex": "\\bCOSRX\\b"
+  },
+  {
+    "brand": "Paula's Choice",
+    "aliases": [],
+    "regex": "\\bPaula's\\ Choice\\b"
+  },
+  {
+    "brand": "First Aid Beauty",
+    "aliases": [],
+    "regex": "\\bFirst\\ Aid\\ Beauty\\b"
+  },
+  {
+    "brand": "Origins",
+    "aliases": [],
+    "regex": "\\bOrigins\\b"
+  },
+  {
+    "brand": "Ole Henriksen",
+    "aliases": [],
+    "regex": "\\bOle\\ Henriksen\\b"
+  },
+  {
+    "brand": "Laneige",
+    "aliases": [],
+    "regex": "\\bLaneige\\b"
+  },
+  {
+    "brand": "Sisley",
+    "aliases": [],
+    "regex": "\\bSisley\\b"
+  },
+  {
+    "brand": "Aveda",
+    "aliases": [],
+    "regex": "\\bAveda\\b"
+  },
+  {
+    "brand": "Bumble and Bumble",
+    "aliases": [],
+    "regex": "\\bBumble\\ and\\ Bumble\\b"
+  }
+]
