@@ -1,28 +1,105 @@
-# Cosmetic Market Intelligence
-Este repositorio contiene el código y análisis desarrollados para la realización de mi Trabajo de Fin de Grado (TFG) titulado "Cosmetic Market Intelligence: Análisis de Tendencias y Características de Éxito en Redes Sociales". El objetivo de este proyecto es analizar el mercado cosmético en plataformas digitales, centrándose en las tendencias y patrones de éxito de productos ofertados en Sephora que aparecen en TikTok.
+# Cosmetic Market Intelligence: Análisis de Tendencias de Consumo de Productos y Características de Éxito en Redes Sociales 
 
-# Descripción del Proyecto
+## 📋 Descripción
 
-Para llevar a cabo el análisis, se han implementado las siguientes técnicas:
-- Obtención de Datos: 
-1. Scraping de videos de tiktok y transcricpiones de audio a texto de los videos con el modelo Whisper.
-2. Scraping de la Web de Sephora a través de Apify
-- Limpieza, tranformación y Análisis Exploratorio: 
-3. ETL y EDA
-- Análisis de Datos:
-4. Detección de nombres de marcas mencionadas con expresiones regulares
-5. Fine-tuning del modelo DistilBert y procesamiento de dataset para encontrar atributos y tipos de productos en las transcripciones.
-6. K-Means para clusterizar las marcas según diferentes características y atributos.
-7. Market Basket Analysis (MBA): análisis de productos comprados conjuntamente y reglas de asociación. 
+Este repositorio contiene el código y análisis desarrollados para el Trabajo de Fin de Grado (TFG) titulado **"Cosmetic Market Intelligence: Análisis de Tendencias y Características de Éxito en Redes Sociales"**.
 
-# Contenido del Repositorio
+El proyecto analiza el mercado cosmético en plataformas digitales, investigando tendencias y patrones de éxito de productos de Sephora que aparecen en TikTok, proporcionando insights valiosos para el sector de la belleza.
 
-- data/: Contiene los datos scrapeados, en el caso de la web de Sephora desde Apify y en el caso del excel, extraido a través del script tiktokurl_extraction.py. Además contiene una carpeta clean_data con los datos limpios del proceso etl. 
+## Sobre uno de los dos dataset principales...
 
-- analysis/Detection/: código y datos destinados al análisis y fine-tuning del modelo Distilbert con el fin de crear un NER apropiado para el proyecto. 
+El dataset de Sephora extraído mediante web scraping con [Apify](https://apify.com/) debe descargarse por separado:
 
-- analysis/kmeans/: Por una parte contiene una carpeta data for kmeans que contiene los datos preparados para su análisis. Y por otra, tiene una carpeta de resultados donde se van guardo los resultados del proceso K-Means que está recogido en jupyter Kmeans.ipynb
+📥 **[Descargar Dataset Sephora](https://drive.google.com/file/d/1H1NMBdPpLVVITMEWWj6CJsvhvgXyot96/view?usp=sharing)**
 
-- analysis/MBA/: Contiene el código relativo al mba en un archivo jupyter y también una carpeta de resultados. 
+Una vez descargado, colócalo en la carpeta `data/` con el nombre: `dataset_sephora.json`
 
-Este proyecto ha sido desarrollado por [Sandra Galiano] como parte del TFG en [Universidad Francisco de Vitoria].
+> ⚠️ **Nota:** Este archivo no está incluido en el repositorio debido a restricciones de tamaño de GitHub.
+
+## Metodología
+
+### 1. Obtención de Datos
+- **Web Scraping de TikTok**: Extracción de URLs y metadatos de videos
+- **Transcripción Audio-Texto**: Conversión mediante modelo Whisper
+- **Scraping de Sephora**: Extracción del catálogo completo vía Apify
+
+### 2. Procesamiento de Datos
+- **ETL (Extract, Transform, Load)**: Limpieza y estructuración de datos
+- **EDA (Exploratory Data Analysis)**: Análisis exploratorio inicial
+
+### 3. Análisis Avanzado
+- **Detección de Marcas**: Identificación mediante expresiones regulares
+- **NER Personalizado**: Fine-tuning de DistilBERT para detectar productos y atributos
+- **Clustering**: K-Means para segmentación de marcas
+- **Market Basket Analysis**: Análisis de patrones de compra conjunta mediante algortimo Apriori
+
+## 📁 Estructura Principal del Repositorio:
+cosmetic-market-intelligence/
+│
+├── analysis/
+│   ├── Bert/                     # Detección NER con BERT
+│   │   ├── data_bert/            # Datos para el modelo BERT
+│   │   ├── detection_results/    # Resultados de detección
+│   │   ├── final_model/          # Modelo BERT entrenado
+│   │   └── bert_detection.ipynb  # Notebook de detección
+│   │
+│   ├── Brands_Detected/          # Detección de marcas, sentimiento, etc
+│   │   ├── all_brands_products_regex.json
+│   │   ├── brand_mentions_sentiment_summary.xlsx
+│   │   ├── mentioned_brands.py   # Script de detección
+│   │   ├── results_brand_detection.xlsx
+│   │   ├── sentences_transcriptions.xlsx
+│   │   └── top_brands_mentions_sentiment.png
+│   │
+│   ├── Detection/                # Scripts de detección adicionales
+│   │
+│   ├── Kmeans/                   # Clustering de marcas
+│   │   ├── data_for_kmeans/      # Datos preparados en fases anteriores para clustering
+│   │   ├── Kmeans_results/       # Resultados del clustering
+│   │   └── Kmeans.ipynb          # Notebook de K-means
+│   │
+│   └── MBA/                      # Market Basket Analysis
+│       ├── mba_results/          # Resultados del análisis
+│       └── mba.ipynb             # Notebook MBA
+│
+├── data/                         # Datasets
+│   ├── clean_data/               # Datos limpios tras proceso ETL
+│   │   ├── sephora_website_cleaned.csv
+│   │   └── url_data_cleaned.xlsx
+│   │
+│   ├── etl_and_eda/              # ETL y Análisis Exploratorio
+│   │   ├── eda&etl_sephora_store.ipynb
+│   │   └── eda&etl_url_data.ipynb
+│   │
+│   ├── dataset_sephora.json      # Dataset Sephora (descargar externamente y colocar aquí)
+│   └── url_data.xlsx             # URLs de TikTok
+│
+├── utils.py                      # Elementos auxiliares
+├── tiktokurl_extraction.py       # Script principal de extracción (scraping de los videos de TikTok)
+└── README.md                     # Este archivo
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Python**: Lenguaje principal
+- **NLP**: SpaCy, NLTK, Transformers (DistilBERT)
+- **Machine Learning**: Scikit-learn, MLxtend
+- **Web Scraping**: Selenium, BeautifulSoup, Apify
+- **Análisis de Datos**: Pandas, NumPy
+- **Visualización**: Matplotlib, Seaborn, NetworkX
+
+Entre otras... :)
+
+## 👤 Autor
+
+**Sandra Galiano Bernardino**
+- Email: sandra.galiber@gmail.com
+- Universidad: Francisco de Vitoria
+- Grado: Business Analytics, mención en Ciencia de Datos
+- Curso: 2024-2025
+
+## Para Citar este trabajo
+
+Si utilizas este código o datos en tu investigación, por favor citame de la siguiente forma:
+
+Galiano Bernardino, S. (2025). Cosmetic Market Intelligence: Análisis de Tendencias y
+Características de Éxito en Redes Sociales. Trabajo de Fin de Grado, Universidad Francisco de Vitoria.
