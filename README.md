@@ -100,7 +100,7 @@ Entre otras... :)
 - Grado: Business Analytics, mención en Ciencia de Datos
 - Curso: 2024-2025
 
-## Para Citar este trabajo
+## Para Citar Este trabajo
 
 Si utilizas este código o datos en tu investigación, por favor citame de la siguiente forma:
 
