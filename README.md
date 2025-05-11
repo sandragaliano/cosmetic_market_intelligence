@@ -33,10 +33,12 @@ Una vez descargado, colócalo en la carpeta `data/` con el nombre: `dataset_seph
 - **Clustering**: K-Means para segmentación de marcas
 - **Market Basket Analysis**: Análisis de patrones de compra conjunta mediante algortimo Apriori
 
-## 📁 Estructura Principal del Repositorio:
+## 📁 Estructura del Repositorio
+
+```
 cosmetic-market-intelligence/
 │
-├── analysis/
+├── analysis/                 
 │   ├── Bert/                     # Detección NER con BERT
 │   │   ├── data_bert/            # Datos para el modelo BERT
 │   │   ├── detection_results/    # Resultados de detección
@@ -77,6 +79,7 @@ cosmetic-market-intelligence/
 ├── utils.py                      # Elementos auxiliares
 ├── tiktokurl_extraction.py       # Script principal de extracción (scraping de los videos de TikTok)
 └── README.md                     # Este archivo
+```
 
 ## 🛠️ Tecnologías Utilizadas
 
